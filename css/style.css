@@ -1,0 +1,273 @@
+
+* body {
+    background-color: #003333;
+    background-image: url("../img/icons/rollo_peli.svg");
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif;
+    margin:25px 50px;
+    color:white;
+    font-size: 25px;
+}
+
+#titulo_pagina{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-size: 100px;
+}
+.contenedor{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.titol{
+  color: #7FFFD4;
+  width: auto;
+  height: 15%;
+  font-size: 130%;
+}
+
+.pelis{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 220px;
+    font-size: 15pt;
+}
+ .descripcio_peli{
+     height: 15%;
+ }
+
+/*******************************************/
+/*LOS ENLACES PARA PAGINAR */
+/*******************************************/
+.nav_buttons{
+  display: inline;
+  text-align: center;
+  background: #006666;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.nav_buttons:hover{
+  background: #009999;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.nav_buttons a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  font-style: oblique;
+  text-decoration: none;
+}
+
+/*******************************************/
+/*******************************************/
+/*******************************************/
+
+
+/*******************************************/
+/*IMAGENES ESTRELLAS*/
+/*******************************************/
+.estels{
+  width: 16px;
+  height: 16px;
+}
+
+/*******************************************/
+/*IMAGENES DE LAS PORTADES*/
+/*******************************************/
+.covers{
+  width: 200px;
+  height: 300px;
+
+  border: 2px solid white;
+  margin: 15px;
+  box-shadow: 2px 2px 5px #999;
+  opacity: 0.7;
+
+}
+
+.covers:hover{
+  opacity: 1;
+}
+
+
+/*******************************************/
+/*ENLACES*/
+/*******************************************/
+
+a{
+  color:white;
+}
+
+
+/********************************************/
+/*FORMULARIOS
+/********************************************/
+form{
+  border: 1px solid white;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+}
+
+form [type=text]{
+    width: 100%;
+    font-size: 85%;
+    background: #78C398;
+    color: #1F5034;
+
+    text-align: center;
+}
+
+form [type=number]{
+  background: #78C398;
+  color: #1F5034;
+      text-align: center;
+    width: 100%;
+    font-size: 85%;
+
+  }
+
+form [type=submit]{
+    width: 100%;
+    font-size: 85%;
+    background: black;
+    color: white;
+
+}
+form [type=submit]:hover{
+
+    background: #78C398;
+
+}
+
+
+/**********************************
+//MENU NAVAGACION
+/*******************************/
+
+#header {
+margin:auto;
+width:500px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ul, ol {
+list-style:none;
+}
+
+.nav {
+width:500px; /*Le establecemos un ancho*/
+margin:0 auto; /*Centramos automaticamente*/
+}
+
+
+.nav > li {
+float:left;
+}
+
+.nav li a {
+  margin: 5px;
+  border-radius: 12px;
+  background-color:#006666;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+}
+
+.nav li a:hover {
+background-color:#009999;
+}
+
+/*************************************
+/PIE FORMULARIO CARATULAS
+/************************************/
+.fitxer{
+    width: 80%;
+    padding:12px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.image_caratula_form{
+    align-self: center;
+    padding: 1px;
+}
+
+#caratula_edit{
+    background: #78C398;
+}
+
+#caratula_text_button{
+
+    width: 45%;
+    padding: 15px;
+}
+
+
+/*Media Queries*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+
+/*Media Queries*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
